@@ -1,6 +1,6 @@
 from node import Node
 
-class Linked_list:
+class LinkedList:
     def __init__(self, head_node=None):
         self.head_node = head_node
     
@@ -37,13 +37,13 @@ class Linked_list:
                 current_node = current_node.get_next_node()
         return result
 
-a = Linked_list()
+# a = LinkedList()
 
-for i in range(10):
-    a.add_node_heading(i)
+# for i in range(10):
+#     a.add_node_heading(i)
 
-print(a.print_list())
+# print(a.print_list())
 
-a.remove_node(5)
+# a.remove_node(5)
 
-print(a.print_list())
+# print(a.print_list())
