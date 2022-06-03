@@ -1,4 +1,4 @@
-from node import Node
+from stack.node import Node
 from linkedlist import LinkedList
 
 def swap_element(array, value1, value2):

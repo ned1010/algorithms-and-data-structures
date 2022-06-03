@@ -1,5 +1,5 @@
 #unlike singly linked list, double has two pointers one forward and one backward
-from node import Node
+from stack.node import Node
 
 class DoubleLinkedList:
     def __init__(self, head_node= None, tail_node= None):

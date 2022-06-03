@@ -1,5 +1,5 @@
 from linkedlist import LinkedList
-from node import Node
+from stack.node import Node
 
 #naive method
 def naive_find_nth_element(array, n):

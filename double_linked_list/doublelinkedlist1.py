@@ -5,7 +5,6 @@ class Node:
         self.next = None  # Initally this node will not be linked with any other node
         self.prev = None  # It will not be linked in either direction
 
-
 # Creating a doubly linked list class
 class DoublyLinkedList:
     def __init__(self):
