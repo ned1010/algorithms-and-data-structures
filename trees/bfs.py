@@ -6,9 +6,8 @@ def breathfirtsearch(root_node, goal):
     initial_path = [root_node]
     queue.appendleft(initial_path)
 
-
     while queue:
-
+        
         current_path = queue.pop()
         current_node = current_path[-1]
 
@@ -16,8 +15,7 @@ def breathfirtsearch(root_node, goal):
             return current_path
 
         for child in current_node.children:
-            new_path = current_path.copy()
+            new_path = current_path[:]
             new_path.append(child)
             queue.appendleft(new_path)
-
     return None

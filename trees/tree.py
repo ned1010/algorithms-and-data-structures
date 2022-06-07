@@ -1,4 +1,4 @@
-
+#Trees are hierarchical data structures.
 class TreeNode:
     def __init__(self, value):
         self.value = value 
@@ -12,7 +12,6 @@ class TreeNode:
         print("Removing" + child_node.value + "from" + self.value)
         self.children = [child for child in self.children if child is not child_node]
     def traverse(self):
-
         #putting all the values in list/queue structure to travel
         node_to_travel = [self]
         while (len(node_to_travel)) > 0:
