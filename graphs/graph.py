@@ -38,14 +38,13 @@ class Graph:
         return False
 
 #let's build a graph
+# def build_graph(directed):
+#     graph = Graph(directed)
+#     vertices = ["a", "b", "c", "d"]
 
-def build_graph(directed):
-    graph = Graph(directed)
-    vertices = ["a", "b", "c", "d"]
-
-    for value in vertices:
-        vertex = Vertex(value)
-        graph.add_vertex(vertex)
+#     for value in vertices:
+#         vertex = Vertex(value)
+#         graph.add_vertex(vertex)
         
-    print(graph.find_path("a", "b"))
-build_graph(True)
+#     print(graph.find_path("a", "b"))
+# build_graph(True)
