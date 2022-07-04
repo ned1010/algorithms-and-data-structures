@@ -1,6 +1,5 @@
 #dijstra's algorith finds the shortest distance from start to all the other vertices
 #you pop the minimum element from the heap
-from dis import dis
 from math import inf
 from heapq import heappop, heappush
 
